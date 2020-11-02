@@ -1,0 +1,91 @@
+body {
+    background-color: #ece6d6;
+}
+
+
+#pageTitle {
+    font-size: 6em;
+    text-align: center;
+    color: black;
+    vertical-align: center;
+}
+
+#subheader1 {
+    text-align: center;
+    color: black;
+    font-size: 3em;
+    font-style: italic;
+}
+
+.titlediv {
+    background-color: rgba(255, 255, 255, 0.6);
+    vertical-align: middle;
+}
+
+.gridcontainer {
+    display: grid;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#aboutMeHeader {
+    font-size: 36px;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px
+}
+
+.gridcontainer h4 {
+    font-size: 24px;
+    padding-top: 15px;
+    font-weight: bold;
+    font-style: italic;    
+}
+
+.gridcontainer p {
+    padding-left: 5%;
+    padding-top: 10px;
+    padding-right: 5%;
+    font-size: 18px;    
+}
+
+.griditem1 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    text-align: center;
+}
+
+.griditem2 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    text-align: center;
+}
+
+.griditem3 {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    text-align: center;
+}
+
+.gridimage {
+    object-fit: cover;
+    width: 300px;
+    height: 400px;
+}
+
+.downloadResume {
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #835c35;
+    border: 2px black solid;
+    min-width: 30%;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.downloadResume a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}

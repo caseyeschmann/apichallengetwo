@@ -1,0 +1,13 @@
+.projectDiv h3 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: 36px;
+    text-align: center;
+}
+
+.projectDiv {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}

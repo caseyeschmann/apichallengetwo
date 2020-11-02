@@ -1,0 +1,41 @@
+
+form {
+   align-content: center;
+   background-color: #c9ae74;
+   margin: 0 auto;
+   text-align: center;
+   padding-top: 10px;
+   padding-bottom: 30px;
+}
+
+form h3 {
+    font-size: 36px;
+    padding-top: 10px;
+}
+
+#formInstructions {
+    font-weight: bold;
+    padding: 5px;
+    font-size: 18px;
+}
+
+#emailText {
+    width: 40vh;
+    margin-top: 5px;
+}
+
+#messageText {
+    width: 40vh;
+    height: 150px;
+    margin-top: 15px;
+}
+
+.sendButton {
+    text-transform: uppercase;
+    margin-top: 20px;
+    background-color: #835c35;
+    border: 2px black solid;
+    color: white;
+    font-size: 20px;
+    min-width: 30%;
+}
